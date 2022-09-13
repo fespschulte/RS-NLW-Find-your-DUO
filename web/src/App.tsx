@@ -1,9 +1,9 @@
-import './styles.css';
+import './styles/main.css';
 
 function App() {
   return (
   <div>
-    
+
   </div>
   )
 }
