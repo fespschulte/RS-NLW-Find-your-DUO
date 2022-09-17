@@ -18,6 +18,7 @@ yearsPlaying
 discord
 weekDays
 hourStart
+hourEnd
 useVoiceChannel
 createdAt
 
