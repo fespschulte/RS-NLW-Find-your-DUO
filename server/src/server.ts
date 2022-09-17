@@ -10,12 +10,12 @@ const prisma = new PrismaClient({
 app.get('/games', async (request, response) => {
   const games = await prisma.game.findMany()
 
-  return response.json ([])
+  return response.json(games)
 
 })
 
 app.post('/ads', (request, response) => {
-  return response.json ([])
+  return response.status(201).json([])
 
 })
 
