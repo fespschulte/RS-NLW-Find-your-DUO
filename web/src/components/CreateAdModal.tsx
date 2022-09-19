@@ -15,7 +15,7 @@ export function CreateAdModal (){
           <form className="mt-8 flex flex-col gap-4">
           <div className="flex flex-col gap-2">
             <label htmlFor="game" className="font-semibold">Qual o Game?</label>
-            <select className="bg-zinc-900 py-3 px-4 rounded text-sm placeholder:text-zinc-500" id="game">
+            <select className="bg-zinc-900 py-3 px-4 rounded text-sm placeholder:text-zinc-500 appearance-none" id="game">
               <option disabled selected>Selecione o game que deseja jogar</option>
             </select>  
           </div>
