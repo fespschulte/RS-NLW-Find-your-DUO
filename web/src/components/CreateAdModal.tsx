@@ -6,6 +6,7 @@ import * as ToggleGroup from '@radix-ui/react-toggle-group';
 
 import { FormEvent, useEffect, useState } from 'react';
 import { Input } from './Form/Input';
+import axios from 'axios';
 
 
 interface Game {
@@ -19,7 +20,7 @@ export function CreateAdModal (){
   const [useVoiceChannel, setUseVoiceChannel] = useState(false)
 
   useEffect(() => {
-    fetch('http://localhost:3333/games')
+    axios('http://localhost:3333/games')
       .then(response => response.json())
       .then(data => {
         setGames(data)
