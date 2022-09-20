@@ -1,3 +1,11 @@
+// Melhoras para executar: 
+// Responsividade e Carrossel para o Banner Keen-Slider
+// Trabalhar a validação dos dados com o React-Hook-Form / Zod
+// Utilizar uma autenticação de login por discord
+// 
+
+
+
 import { Check, GameController } from 'phosphor-react';
 
 import * as Dialog from '@radix-ui/react-dialog';
