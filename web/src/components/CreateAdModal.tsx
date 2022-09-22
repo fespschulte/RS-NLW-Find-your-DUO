@@ -2,7 +2,7 @@
 // Responsividade e Carrossel para o Banner Keen-Slider
 // Trabalhar a validação dos dados com o React-Hook-Form / Zod
 // Utilizar uma autenticação de login por discord
-// 
+// Pensar em mais aprimorações
 
 
 
